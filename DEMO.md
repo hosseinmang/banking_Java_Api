@@ -16,7 +16,7 @@ cd banking_Java_Api
 
 ## 2. Install Prerequisites
 - Java 17 or higher
-- Maven 3.6 or higher (already included in this repo as `apache-maven-3.9.5`)
+- Maven 3.6 or higher
 
 ---
 
@@ -24,7 +24,7 @@ cd banking_Java_Api
 Open PowerShell in the project root and run:
 
 ```
-.\apache-maven-3.9.5\bin\mvn.cmd clean install
+mvn clean install
 ```
 
 ---
@@ -33,7 +33,7 @@ Open PowerShell in the project root and run:
 Start the API with:
 
 ```
-.\apache-maven-3.9.5\bin\mvn.cmd spring-boot:run
+mvn spring-boot:run
 ```
 
 The API will be available at: [http://localhost:8080/api](http://localhost:8080/api)
@@ -72,7 +72,7 @@ curl -X POST "http://localhost:8080/api/accounts" `
 To run all unit and integration tests:
 
 ```
-.\apache-maven-3.9.5\bin\mvn.cmd test
+mvn test
 ```
 
 ---
