@@ -44,13 +44,6 @@ You can run the project locally, register a user, log in, create accounts, and p
 
 ---
 
-## Recruiter Tips
-- [GitHub Repository](https://github.com/hosseinmang)
-- Include a short video or screenshots of the API in action (optional but impactful)
-- Consider attaching a one-page PDF summary with the above points
-
----
-
 ## What This Project Does
 
 This project implements a secure, enterprise-grade banking API using Java 17 and Spring Boot. It provides:
